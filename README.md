@@ -23,6 +23,7 @@ Ensure you have the following software installed:
    git clone https://github.com/username/repository.git
    cd repository	
 2.	Install project dependencies:
+   ```bash
     npm install
 
 ---
@@ -37,9 +38,9 @@ Ensure you have the following software installed:
    ```plaintext
     ADMIN_DATABASE_URL=postgresql://postgres:postgres_password@localhost:5432/postgres
     DATABASE_URL=postgresql://credits_user:credits_password@localhost:5432/credits_db
-    DB_NAME = credits_db
-    DB_USER = credits_user
-    DB_PASSWORD = credits_password
+    DB_NAME=credits_db
+    DB_USER=credits_user
+    DB_PASSWORD=credits_password
     JWT_SECRET=your_secret_key
     WELCOME_BONUS=500
     PORT=3000
