@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(100) NOT NULL,
+    balance NUMERIC DEFAULT 500
+);
+
+CREATE TABLE IF NOT EXISTS transactions (
+    id SERIAL PRIMARY KEY,
+    sender_id INT REFERENCES users(id) ON DELETE SET NULL,
+    receiver_id INT REFERENCES users(id) ON DELETE SET NULL,
+    amount NUMERIC,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
