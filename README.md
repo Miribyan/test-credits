@@ -21,17 +21,13 @@ Ensure you have the following software installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/repository.git
-   cd repository	
+   cd repository
+   ```	
 2.	Install project dependencies:
    ```bash
-    npm install
-
----
-
+   npm install
+   ```
 ### Configuration
-
-```markdown
-## Configuration
 
 1. Create a `.env` file in the root directory with the following environment variables:
 
@@ -45,28 +41,23 @@ Ensure you have the following software installed:
     WELCOME_BONUS=500
     PORT=3000
 
----
-
 ### Database Setup
 
-```markdown
-## Database Setup
 
 1. **Initialize the database**: Run the following command to set up the database and seed it with initial data:
    ```bash
    npm run start
+   ```
 
    This will create the database, initialize tables, and seed mock users if they do not already exist.
 ---
 
 ### Running the Project
 
-```markdown
-## Running the Project
-
 1. **Run in development mode**:
    ```bash
    npm run dev
+   ```
 
    This command will start the server with nodemon and apply changes automatically.
 
@@ -74,15 +65,13 @@ Ensure you have the following software installed:
   ```bash
   npm run build
   npm start
+  ```
 
   The server will be available at http://localhost:3000 by default.
 
   ---
 
 ### API Endpoints
-
-```markdown
-## API Endpoints
 
 Here is a summary of available API endpoints:
 
@@ -107,4 +96,5 @@ Here is a summary of available API endpoints:
 - **Error Handling**: All endpoints return meaningful HTTP status codes. If something goes wrong, an error message will be returned in the response.
 - **Logging**: The application uses a logger instead of `console.log` for better log management.
 
-Feel free to contribute to this project by submitting issues or pull requests!
+
+
