@@ -95,6 +95,7 @@ Here is a summary of available API endpoints:
 
 - **Error Handling**: All endpoints return meaningful HTTP status codes. If something goes wrong, an error message will be returned in the response.
 - **Logging**: The application uses a logger instead of `console.log` for better log management.
+- **Testing**: Here is the link to postman collection - https://www.dropbox.com/scl/fi/qzq3pdz59w7rwkibkn0k9/test-credits.postman_collection.json?rlkey=nmkqscn76hkajpeayityqnt61&st=zf18npvh&dl=0
 
 
 
